@@ -4,6 +4,6 @@ Here are two scripts that convert the SVF-generated Constraint Graph in .dot for
 We will be updating more SVF on Neo4j extension projects, please follow us if you are interested in our projects😺!
 
 # How to use
-1. Modify the target Neo4j database information path in **import.py**
-2. Run the command **python import.py your_dot_file.dot**
+1. Modify the target Neo4j database information path in `import.py`
+2. Run the command `python import.py your_dot_file.dot`
 3. Check in your Neo4j Client.
