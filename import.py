@@ -10,7 +10,7 @@ username = "neo4j"
 # your database's password
 password = "12345678"
 # The /import file of your Neo4j database
-target_path = r"D:\neo4j\relate-data\dbmss\dbms-422fcd92-2201-46d2-b297-da19fa31fff5\import".replace("\\","/")
+target_path = r"The import file of your target database".replace("\\","/")
 
 #*****************************************************************
 
