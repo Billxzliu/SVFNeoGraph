@@ -3,15 +3,15 @@ import dot2csv as dot
 import sys
 #********Need changed: The info of your target database***********
 
-# Your Neo4j's uri
+# Database's uri
 uri = "bolt://localhost:7687"
-# your database's user name
+# Database's user name
 username = "neo4j"
-# your database's password
+# Database's password
 password = "12345678"
-# Name of the database
+# Database's name
 name = "svf"
-# The /import file of your Neo4j database
+# The /import/ file  path of Database
 target_path = r"The /import/ folder of the target database".replace("\\","/")
 
 #*****************************************************************
