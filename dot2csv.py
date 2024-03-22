@@ -4,9 +4,6 @@ import shutil
 import sys
 
 def main(dot_file, target_database):
-    '''
-    Need change: The /import file of your target database
-    '''
     target_path = target_database
 
     graphs = pydot.graph_from_dot_file(dot_file)

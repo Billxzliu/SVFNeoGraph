@@ -1,7 +1,7 @@
 from neo4j import GraphDatabase
 import dot2csv as dot
 import sys
-#********Need change: The info of your target database***********
+#********Need changed: The info of your target database***********
 
 # Your Neo4j's uri
 uri = "bolt://localhost:7687"
@@ -9,8 +9,10 @@ uri = "bolt://localhost:7687"
 username = "neo4j"
 # your database's password
 password = "12345678"
+# Name of the database
+name = "svf"
 # The /import file of your Neo4j database
-target_path = r"The import file of your target database".replace("\\","/")
+target_path = r"The /import/ folder of the target database".replace("\\","/")
 
 #*****************************************************************
 
@@ -38,7 +40,9 @@ def import_relationships(session):
                 CREATE (source)-[r:{relationship_type}]->(target)
                 """
             session.run(cypher_query, {"source_id": source_id, "target_id": target_id})
-with driver.session(database="neo4j") as session:
+
+with driver.session(database=name) as session:
     import_nodes(session)
     import_relationships(session)
+
 driver.close()
