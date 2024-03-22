@@ -1,5 +1,5 @@
 # SVFNeoGraph
-Here are two scripts that convert the SVF-generated Constraint Graph in .dot format into CSV format and import it into Neo4j to form a graph database. If you want to know more about SVF and Constraint Graph, please follow the [Technical documentation](https://github.com/svf-tools/SVF/wiki/Technical-documentation) of [SVF](https://github.com/SVF-tools/SVF).
+This is a project which can convert the SVF-generated Constraint Graph in .dot format into CSV format and import it into Neo4j to form a graph database. If you want to know more about SVF and Constraint Graph, please follow the [Technical documentation](https://github.com/svf-tools/SVF/wiki/Technical-documentation) of [SVF](https://github.com/SVF-tools/SVF).
 
 We will be updating more SVF on Neo4j extension projects, please follow us if you are interested in our projects😺!
 
